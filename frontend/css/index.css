@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #262c36;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #f4f2f2;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #a8dbeb;
+    text-align: center;
+
+}
+
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #0066cc;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004a99;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.paginacion {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.paginacion button {
+    padding: 6px 12px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 25cap;
+}
+
+.paginacion button.activo {
+    background: #0066cc;
+    color: #fff;
+}

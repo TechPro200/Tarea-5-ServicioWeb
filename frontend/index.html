@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Web</title>
+    <link rel="shortcut icon" href="Image/libro.png">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agenda de Contactos</h1>
+
+        <div class="card">
+            <h2>Agregar Contacto</h2>
+            <input id="nombre" type="text" placeholder="Nombre">
+            <input id="apellido" type="text" placeholder="Apellido">
+            <input id="telefono" type="text" placeholder="Telefono">
+            <button onclick="guardarContacto()">Guardar</button>
+        </div>
+
+        <div class="card">
+            <h2>Lista de Contactos</h2>
+            <ul id="lista"></ul>
+            <div id="paginacion" class="paginacion"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
